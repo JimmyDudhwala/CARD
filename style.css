@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 2000px;
+    width: 2000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 300px;
+    width: 180px;
+    background-color: antiquewhite;
+}
+
+.image{
+margin: 0px;
+padding: 0px;
+height: 120px;
+width: 180px;
+
+}
+
+.my{
+    height: 120px;
+    width: 180px;
+    margin: 0px;
+    
+}
+
+
+.detail{
+    z-index: 1;
+    background-color: antiquewhite;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
